@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
 
 function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="relative w-full max-w-full min-h-screen overflow-x-hidden bg-background text-foreground">
       <Nav />
       <main>
         <Hero />
