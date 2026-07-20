@@ -60,9 +60,9 @@ export function QuoteForm() {
                 <dt className="tag-mono text-muted-foreground">Direct Line</dt>
                 <dd className="mt-1 text-lg font-semibold text-navy">(562) 923-8728</dd>
               </div>
-              <div>
+              <div className="min-w-0">
                 <dt className="tag-mono text-muted-foreground">Project Desk</dt>
-                <dd className="mt-1 text-base font-medium text-navy">
+                <dd className="mt-1 break-all text-base font-medium text-navy">
                   Customerservice@langroofinginc.com
                 </dd>
               </div>
