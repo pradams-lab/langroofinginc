@@ -82,14 +82,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Lang Roofing Inc. delivers bespoke commercial, public, and residential roofing for Southern California. Title 24 compliant, fully bonded and insured — 50+ years of master workmanship.",
       },
       { name: "author", content: "Lang Roofing Inc." },
-      { property: "og:title", content: "Lang Roofing Inc. — Roofing Contractors Since 1974" },
+      { property: "og:title", content: "Lang Roofing Inc. — Commercial & Industrial Roofing in Southern California Since 1974" },
       {
         property: "og:description",
         content:
-          "Bespoke roofing solutions for commercial complexes, municipal facilities, industrial parks, and premium HOAs across Southern California.",
+          "Lang Roofing Inc. delivers bespoke commercial, public, and residential roofing for Southern California. Title 24 compliant, fully bonded and insured — 50+ years of master workmanship.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Lang Roofing Inc. — Commercial & Industrial Roofing in Southern California Since 1974" },
+      { name: "twitter:description", content: "Lang Roofing Inc. delivers bespoke commercial, public, and residential roofing for Southern California. Title 24 compliant, fully bonded and insured — 50+ years of master workmanship." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cbd9fea9-d8ff-4efa-bef0-03cf21b0b7e5" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cbd9fea9-d8ff-4efa-bef0-03cf21b0b7e5" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
