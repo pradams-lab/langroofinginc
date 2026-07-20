@@ -30,7 +30,7 @@ export function Specialties() {
   return (
     <section className="relative bg-navy py-24 text-white lg:py-32">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 items-end gap-8 border-b border-white/15 pb-10">
+        <div className="grid grid-cols-12 items-end gap-y-8 lg:gap-8 border-b border-white/15 pb-10">
           <div className="col-span-12 lg:col-span-8">
             <p className="tag-mono text-white/60">▲ Technical Capabilities</p>
             <h2 className="mt-5 text-4xl font-bold leading-[1.05] lg:text-5xl">
