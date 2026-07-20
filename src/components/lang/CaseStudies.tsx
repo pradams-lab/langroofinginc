@@ -116,7 +116,7 @@ export function CaseStudies() {
   return (
     <section id="case-studies" className="bg-slate-soft py-24 lg:py-32">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 items-end gap-8 border-b border-slate-line pb-8">
+        <div className="grid grid-cols-12 items-end gap-y-8 lg:gap-8 border-b border-slate-line pb-8">
           <div className="col-span-12 lg:col-span-7">
             <p className="tag-mono text-crimson">▲ Field Evidence</p>
             <h2 className="mt-5 text-4xl font-bold leading-[1.05] text-navy lg:text-5xl">
@@ -159,7 +159,7 @@ export function CaseStudies() {
             </div>
           )}
           {filtered.map((p, idx) => (
-            <article key={p.id} className="grid grid-cols-12 gap-6 lg:gap-10">
+            <article key={p.id} className="grid grid-cols-1 gap-6 lg:grid-cols-12 lg:gap-10">
               <div className="col-span-12 lg:col-span-3">
                 <span className="tag-mono text-crimson">
                   Case // {String(idx + 1).padStart(2, "0")}

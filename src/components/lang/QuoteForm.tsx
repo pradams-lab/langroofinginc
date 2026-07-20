@@ -43,7 +43,7 @@ export function QuoteForm() {
   return (
     <section id="quote" className="bg-white py-24 lg:py-32">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-12 gap-y-10 lg:gap-10 lg:gap-y-16">
           <aside className="col-span-12 lg:col-span-4">
             <p className="tag-mono text-crimson">▲ Enterprise Quote Engine</p>
             <h2 className="mt-5 text-4xl font-bold leading-[1.05] text-navy lg:text-5xl">
@@ -60,9 +60,9 @@ export function QuoteForm() {
                 <dt className="tag-mono text-muted-foreground">Direct Line</dt>
                 <dd className="mt-1 text-lg font-semibold text-navy">(562) 923-8728</dd>
               </div>
-              <div>
+              <div className="min-w-0">
                 <dt className="tag-mono text-muted-foreground">Project Desk</dt>
-                <dd className="mt-1 text-base font-medium text-navy">
+                <dd className="mt-1 break-all text-base font-medium text-navy">
                   Customerservice@langroofinginc.com
                 </dd>
               </div>

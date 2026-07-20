@@ -26,7 +26,7 @@ export function Footer() {
     <footer className="bg-navy-deep text-white">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         {/* Top marquee row */}
-        <div className="grid grid-cols-12 gap-8 border-b border-white/10 py-14 lg:py-20">
+        <div className="grid grid-cols-12 gap-y-8 lg:gap-8 border-b border-white/10 py-14 lg:py-20">
           <div className="col-span-12 lg:col-span-5">
             <div className="flex items-baseline gap-3">
               <span className="text-2xl font-extrabold uppercase tracking-[0.16em]">
